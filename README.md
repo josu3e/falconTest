@@ -47,3 +47,8 @@ Validamos los paquetes instalados en nuestro contenedor
 ```
 pip freeze
 ```
+#### Realizar pruebas
+Ejecutamos el siguiente comando y verificamos `http://localhost:8000/` o `http://localhost:8000/led/green`
+```
+gunicorn app:app
+```
